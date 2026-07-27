@@ -30,3 +30,17 @@ modeBtns.forEach(btn => {
       : 'Chat mode engaged. This area is ready for live assistant conversation.';
   });
 });
+gsap.registerPlugin(ScrollTrigger);
+gsap.to("#box", {
+    y: 500,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".container",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true
+    }
+});
+
+```
+
