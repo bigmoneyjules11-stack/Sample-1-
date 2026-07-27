@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Airo AI Command Center</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">A</div>
+        Airo <span class="pill">BETA</span>
+      </div>
+      <div class="actions">
+        <button class="btn">Website</button>
+        <button class="btn primary">Publish</button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="side-title">Intelligence</div>
+      <nav class="nav">
+        <a class="active" href="#">AI Core <span>›</span></a>
+        <a href="#">Advanced AI <span>›</span></a>
+        <a href="#">Analytics <span>›</span></a>
+      </nav>
+
+      <div class="side-title">Personal</div>
+      <nav class="nav">
+        <a href="#">Daily Life <span>›</span></a>
+        <a href="#">Health <span>›</span></a>
+        <a href="#">Fitness <span>›</span></a>
+        <a href="#">Education <span>›</span></a>
+        <a href="#">Creative <span>›</span></a>
+      </nav>
+
+      <div class="side-title">Finance & Business</div>
+      <nav class="nav">
+        <a href="#">Productivity <span>›</span></a>
+        <a href="#">Communication <span>›</span></a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section class="hero">
+        <div class="hero-main">
+          <div class="kicker">Command Center</div>
+          <h1 class="h1">Your AI. Your Life. Fully Connected.</h1>
+          <p class="sub">
+            A luxury dark-mode AI platform with bots, agents, and live action tiles designed to feel immersive, precise, and futuristic.
+          </p>
+          <div class="cta">
+            <button class="btn primary">Showcase</button>
+            <button class="btn">Chat</button>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent">
+              <b>Nexus-1</b>
+              <span>Guardian robot and orchestration leader.</span>
+            </div>
+            <div class="agent">
+              <b>K-9X</b>
+              <span>Robo companion for assistance and alerts.</span>
+            </div>
+            <div class="agent">
+              <b>Aero-7</b>
+              <span>Drone scout for remote operations.</span>
+            </div>
+          </div>
+
+          <div class="status">
+            <span class="dot"></span>
+            Ready for modules, workflows, and automation
+          </div>
+        </div>
+
+        <div class="hero-aside">
+          <div class="kicker">Featured Agents</div>
+          <div class="stack">
+            <div class="tile">
+              <h3>Core AI</h3>
+              <p>Primary assistant logic, routing, and system awareness.</p>
+            </div>
+            <div class="tile">
+              <h3>Wellness AI</h3>
+              <p>Health, fitness, and daily-life intelligence layer.</p>
+            </div>
+            <div class="tile">
+              <h3>Business AI</h3>
+              <p>Productivity, finance, and communication automation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="preview">
+        <div class="panel">
+          <div class="panel-head">
+            <div class="kicker">Overview</div>
+            <span class="chip">Live modules</span>
+          </div>
+
+          <div class="hero-grid">
+            <div class="tile"><h3>AI Chatbot</h3><p>Natural-language assistant with memory, tools, and handoffs.</p></div>
+            <div class="tile"><h3>Health Dashboard</h3><p>Track goals, habits, and wellness signals in one place.</p></div>
+            <div class="tile"><h3>Finance Tracker</h3><p>Monitor budgets, alerts, and personal finance actions.</p></div>
+            <div class="tile"><h3>Fitness Coach</h3><p>Personalized training, recovery, and daily movement plans.</p></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div class="kicker">Live Chat</div>
+            <span class="chip">Assistant online</span>
+          </div>
+
+          <div class="chatbox" id="chatbox">
+            Interactive assistant panel preview with bot messages, quick actions, and agent handoffs.
+          </div>
+
+          <div class="chat-input">
+            <input id="message" type="text" placeholder="Ask the assistant..." />
+            <button class="btn primary" id="sendBtn">Send</button>
+          </div>
+
+          <div class="footerbar">
+            <button class="btn mode-btn active" data-mode="website">Website</button>
+            <button class="btn mode-btn" data-mode="chat">Chat</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
