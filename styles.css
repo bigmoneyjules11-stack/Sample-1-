@@ -401,3 +401,21 @@ body:before{
   .btn{flex:1}
   .brand{font-size:18px}
 }
+
+.container {
+    height: 200vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #34d399;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
